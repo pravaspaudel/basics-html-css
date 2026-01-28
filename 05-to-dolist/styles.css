@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 350px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+select {
+  width: 100%;
+  margin-top: 10px;
+  padding: 6px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+}
+
+li {
+  background-color: #fff3cd;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #155724;
+}
+
+li.completed-item {
+  background-color: #d4edda;
+}
+li.pending-item {
+  background-color: #f8d7da;
+}
+
+li span {
+  cursor: pointer;
+}
